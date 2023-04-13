@@ -1,0 +1,31 @@
+@include for-phone{
+    .hamburger-menu{
+        display: block;
+    }
+    nav{
+        display: none;
+    }
+}
+@include for-tablet{
+    .hamburger-menu{
+        display: block;
+    }
+    nav{
+        display: none;
+    }
+}
+@include for-laptop{
+    .hamburger-menu{
+        display: none;
+    }
+}
+@include for-large-desktop{
+    .hamburger-menu{
+        display: none;
+    }
+}
+@include for-xxl-large-desktop{
+   .hamburger-menu{
+     display: none;
+    }
+}
